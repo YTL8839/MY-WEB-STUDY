@@ -1,1 +1,25 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>单文本溢出</title>
+<style>
+  img {
+    height: 200px;
+  }
+  .flow > h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+</style>
+</head>
+<body>
+<div class="flow">
+  <img src="https://i.loli.net/2018/01/09/5a54dee287d43.jpg" alt="guiargirl">
+  <h3>那些年，我们一起追的女孩,我喜欢拍青春片的人。他们都因为记性太好，又不甘心只用回忆抵抗余生，于是为自己造了一架时光机，重演，定格，铁证如山。每当青春的乡愁又犯病时，拿出来看一次便是解药。</h3>
+  <p>谁都发过光的吧。哪怕现在变老了，发福了，神情麻木了，没有梦想了，但一想到多年前发过光的自己，还是会傻傻地就露出会心微笑吧。所以你未必是来看九把刀的故事，你不过是穿过这个黑暗的电影院去找曾经的自己。哪怕故事已经烂熟，旁白仍像小说，高中毕业之后的部分拍得泄气，你还是在九把刀拜托大家看过不要剧透的最后十分钟，眼泪像爆水管一样飙出来，周围响起了擤鼻涕的声音</p>
+</div>
+</body>
+</html>
