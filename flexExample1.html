@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PC网页</title>
+    <style>
+  header {
+  height: 50px;
+  background: #ddd;
+}
+footer {
+  height: 50px;
+  background: #bbb;
+}
+.content {
+  display: flex;
+}
+.content>aside {
+  height: 500px;
+  width: 100px;
+  background: orange;
+}
+main {
+  background: red;
+  flex-grow: 1;
+  margin: 0 3px;
+}
+nav {
+  height: 500px;
+  width: 100px;
+  background: #ccc;
+}
+  </style>
+</head>
+<body>
+<header>头部</header>
+ <div class="content">
+   <aside>侧边框</aside>
+   <main>主体</main>
+   <nav>右侧边框</nav>
+ </div> 
+<footer>底部</footer>  
+</body>
+</html>
