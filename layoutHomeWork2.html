@@ -4,14 +4,22 @@
   <meta charset="utf-8">
   <title>JS Bin</title>
   <style>
-  html {
+html {
   height: 100%;
 }
 body {
   margin: 0;
   padding: 0;
   height: 100%;
+}
+.layout {
+  height: 100%;
   display: flex;
+}
+.layout::after {
+  content: '';
+  display: block;
+  clear: both;
 }
 .main {
   height: 100%;
@@ -38,8 +46,10 @@ body {
   </style>
 </head>
 <body>
+<div class="layout">  
  <div class="main">main</div>
  <div class="right">right</div>
  <div class="left">left</div>
+</div>  
 </body>
 </html>
