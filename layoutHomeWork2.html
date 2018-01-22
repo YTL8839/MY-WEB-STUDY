@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <style>
+  html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+}
+.main {
+  height: 100%;
+  flex-grow: 1;
+  background: pink;
+  margin-left: 5px;
+  margin-right: 5px;
+  order: 2;
+}
+.right {
+  background: blue;
+  width: 200px;
+  height: 80%;
+  float: right;
+  order: 3;
+}
+.left {
+  background: red;
+  height: 80%;
+  float: left;
+  width: 200px;
+  order: 1;
+}
+  </style>
+</head>
+<body>
+ <div class="main">main</div>
+ <div class="right">right</div>
+ <div class="left">left</div>
+</body>
+</html>
