@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片排列</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .title {
+            text-align: center;
+            margin-bottom:30px;
+        }
+        h1 {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        img {
+            width: 250px;
+            height: 250px;
+            opacity: 0.75;
+        }
+        .ct {
+            width: 770px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .ct-img  {
+            box-shadow: 1px 2px 4px 3px rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .ct-img p {
+            text-align: center;
+            padding: 15px;
+        }
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+        }
+        .layout {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+<div class="layout">
+    <div class="title">
+        <h1>风景列表</h1>
+        <hr>
+    </div>
+    <ul class="ct">
+        <li class="ct-img">
+            <img src="https://i.loli.net/2018/01/25/5a69d48df0314.jpg" alt="风景如画">
+            <p>风景如画</p>
+        </li>
+        <li class="ct-img">
+            <img src="https://i.loli.net/2018/01/25/5a69d48df0314.jpg" alt="风景如画">
+            <p>风景如画</p>
+        </li>
+        <li class="ct-img">
+            <img src="https://i.loli.net/2018/01/25/5a69d48df0314.jpg" alt="风景如画">
+            <p>风景如画</p>
+        </li>
+        <li class="ct-img">
+            <img src="https://i.loli.net/2018/01/25/5a69d48df0314.jpg" alt="风景如画">
+            <p>风景如画</p>
+        </li>
+        <li class="ct-img">
+            <img src="https://i.loli.net/2018/01/25/5a69d48df0314.jpg" alt="风景如画">
+            <p>风景如画</p>
+        </li>
+        <li class="ct-img">
+            <img src="https://i.loli.net/2018/01/25/5a69d48df0314.jpg" alt="风景如画">
+            <p>风景如画</p>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
