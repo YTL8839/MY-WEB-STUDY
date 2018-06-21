@@ -7,6 +7,4 @@
 * JS
 
 [**baidu**查询](https://www.baidu.com)
-'''
-hello world
-'''
+'''hello world'''
