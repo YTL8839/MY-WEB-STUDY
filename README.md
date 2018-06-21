@@ -1,4 +1,4 @@
-# Forward to the Feture
+# Forward to the Future
 ### bingyang
 > where there is a will,there is a way
 
