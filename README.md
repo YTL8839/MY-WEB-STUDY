@@ -6,4 +6,4 @@
 * CSS3
 * JS
 
-[baidu查询](https://www.baidu.com)
+[**baidu**查询](https://www.baidu.com)
